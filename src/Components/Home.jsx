@@ -8,32 +8,41 @@ import z_image from '../assets/z_image.svg'
 
 const Home = () => {
     return (
-        <div className='container min-h-screen mx-auto md:px-20 lg:px-0 w-full' id='Home'>
+        <div className='flex items-center justify-between w-full h-screen px-20' id='Home'>
             {/* Right Section */}
             <div>
-                <p className='text-black font-extrabold py-10 px-10 text-4xl ml-10 mt-20'>
+                <p className="text-black font-extrabold text-4xl -bottom-30 relative">
                     Make The Best<br />
                     Financial Decisions
                 </p>
-                <p className='px-20 -top-5 relative text-black text-sm'>
-                    Cum Et Convallis Risus Placerat Aliquam,
-                    Nunc. Scelerisque Aliquet
-                    <br />Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
+                <p className="text-black text-sm -bottom-35 relative">
+                    Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus
+                    Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
                 </p>
-                <button className='bg-black text-white px-6 py-2 rounded-sm ml-20'>Get Started →</button>
-                <img src={watch_video} alt='' className='max-w-5 ml-63 -top-7 relative' />
-                <p className='text-sm font-semibold px-70 relative -top-12'>Watch Video</p>
+                <div className="flex items-center gap-4 -bottom-40 relative ">
+                    <button className="bg-black text-white px-6 py-2 rounded-sm">
+                        Get Started →
+                    </button>
+                    <div className="flex items-center gap-2 ">
+                        <img src={watch_video} alt="Watch Video" className="w-10 h-10" />
+                        <p className="text-sm font-semibold">Watch Video</p>
+                    </div>
+                </div>
+
+                <div className='flex justify-start relative -bottom-27 -left-18'>
+                    <img src={z_image} alt='' className='w-120 px-10 py-10' />
+                </div >
             </div>
 
             {/* Left section */}
-            <div className='relative flex container min-h-screen mx-auto justify-end'>
-                <img src={i_phone1} alt="" className="w-80 z-10 relative -top-100" />
-                <img src={i_phone2} alt="" className="w-full max-w-[200px] absolute left-[150px] bottom-[60px] z-20" />
-                <img src={i_phone3} alt="" className="w-full max-w-[200px] absolute left-[87px] bottom-[50px] z-30" />
-                <img src={circle} alt="" className="w-full max-w-[200px] absolute bottom-[70px] right-[10px]" />
+            <div className='flex justify-end relative w-1/2 -bottom-10'>
+                <img src={i_phone1} alt="" className="w-110 h-110  relative -right-225 -top-2 z-30" />
+                <img src={i_phone2} alt="" className=" w-110 h-110 relative -right-160 -bottom-8 z-20" />
+                <img src={i_phone3} alt="" className="w-110 h-110 relative -right-95 -bottom-18 z-10" />
+                <img src={circle} alt="" className="w-100 h-100 relative" />
             </div>
-            <img src={z_image} alt='' className='max-w-sm px-10 py-10' />
-        </div >
+
+        </div>
     )
 }
 

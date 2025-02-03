@@ -21,7 +21,7 @@ const Customizable = () => {
 
       {/* Left section */}
       <div className="relative">
-        <div className="flex justify-end px-10 absolute -top-120 -right-5">
+        <div className="flex justify-end px-10 absolute -top-120 -right-0">
           <div className="max-w-lg">
             <ul className="mt-4 space-y-4">
               <li>

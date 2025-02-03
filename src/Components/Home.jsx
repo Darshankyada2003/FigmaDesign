@@ -8,7 +8,7 @@ import z_image from '../assets/z_image.svg'
 
 const Home = () => {
     return (
-        <div className='flex items-center justify-between w-full h-screen px-20' id='Home'>
+        <div className='flex items-center justify-between w-full h-screen p-8 ml-20' id='Home'>
             {/* Right Section */}
             <div>
                 <p className="text-black font-extrabold text-4xl -bottom-30 relative">
@@ -35,7 +35,7 @@ const Home = () => {
             </div>
 
             {/* Left section */}
-            <div className='flex justify-end relative w-1/2 -bottom-10'>
+            <div className='flex justify-end relative w-1/2 -bottom-10 mr-25'>
                 <img src={i_phone1} alt="" className="w-110 h-110  relative -right-225 -top-2 z-30" />
                 <img src={i_phone2} alt="" className=" w-110 h-110 relative -right-160 -bottom-8 z-20" />
                 <img src={i_phone3} alt="" className="w-110 h-110 relative -right-95 -bottom-18 z-10" />

@@ -40,7 +40,7 @@ const Features = () => {
               </li>
               <li>
                 <h6 className="text-lg font-semibold flex items-start">
-                <img src={icon2} className='w-4 h-4 mr-2 mt-1' />
+                  <img src={icon2} className='w-4 h-4 mr-2 mt-1' />
                   Budgeting Intervals</h6>
                 <p className="text-gray-600">
                   Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu
@@ -49,7 +49,7 @@ const Features = () => {
               </li>
               <li>
                 <h6 className="text-lg font-semibold flex items-center">
-                <img src={icon3} className='w-3 h-3 mr-2 mt-1' />
+                  <img src={icon3} className='w-3 h-3 mr-2 mt-1' />
                   Budgeting Intervals</h6>
                 <p className="text-gray-600">
                   Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu
@@ -60,7 +60,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 

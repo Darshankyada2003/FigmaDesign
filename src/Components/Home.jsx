@@ -24,7 +24,7 @@ const Home = () => {
                         Get Started →
                     </button>
                     <div className="flex items-center gap-2 ">
-                        <img src={watch_video} alt="Watch Video" className="w-10 h-10" />
+                        <img src={watch_video} alt="Watch Video" className="w-7 h-7" />
                         <p className="text-sm font-semibold">Watch Video</p>
                     </div>
                 </div>

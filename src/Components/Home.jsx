@@ -5,6 +5,7 @@ import i_phone3 from '../assets/i_phone_3.svg'
 import i_phone2 from '../assets/i_phone_2.svg'
 import i_phone1 from '../assets/i_phone_1.svg'
 import z_image from '../assets/z_image.svg'
+import redcolor from '../assets/redcolor.svg'
 
 const Home = () => {
     return (
@@ -41,7 +42,9 @@ const Home = () => {
                 <img src={i_phone3} alt="" className="w-110 h-110 relative -right-95 -bottom-18 z-10" />
                 <img src={circle} alt="" className="w-100 h-100 relative" />
             </div>
-
+            <div className='absolute top-95 right-40'>
+                <img src={redcolor} alt="" className="w-60 " />
+            </div>
         </div>
     )
 }

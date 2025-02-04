@@ -6,6 +6,7 @@ import Advantage from './Components/Advantage'
 import Customizable from './Components/Customizable'
 import UserTestimonails from './Components/UserTestimonails'
 import FAQ from './Components/FAQ'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Customizable />
       <UserTestimonails />
       <FAQ />
+      <Footer />
     </div>
   )
 }

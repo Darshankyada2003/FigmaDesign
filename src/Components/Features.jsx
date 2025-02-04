@@ -5,24 +5,27 @@ import iphon_features from '../assets/iphon_features.svg'
 import icon1 from '../assets/icon1.svg'
 import icon2 from '../assets/icon2.svg'
 import icon3 from '../assets/icon3.svg'
+import color1 from '../assets/color1.svg'
+import star from '../assets/star.svg'
 
 
 const Features = () => {
   return (
     <div className='' id='Features'>
       {/* Right section */}
-      <div className='relative -top-10'>
-        <div>
-          <img src={orange_color} alt='' className='px-10 py-10 w-150' />
+      <div className='relative mb-16 top-10'>
+        <div className='max-w-sm ml-10'>
+          <img src={orange_color} alt='' className='px-10 py-10' />
         </div>
-        <div className='-mt-120 px-25'>
+        <div className='-mt-70 px-25'>
           <img src={circle_2} alt='' className='w-1/2 max-w-sm relative' />
           <img src={iphon_features} alt='' className='relative w-70 -mt-100 z-10 -right-25' />
         </div>
+        <img src={star} alt='' className='absolute top-20 left-10 w-7'/>
       </div>
       {/* Left section */}
-      <div className='relative'>
-        <div className="flex justify-end px-10 absolute -top-120 -right-5">
+      <div className='relative mr-15'>
+        <div className="flex justify-end px-10 absolute -top-110 -right-5">
           <div className="max-w-lg">
             <h5 className="text-red-500 text-sm font-semibold tracking-wider">FEATURES</h5>
             <h2 className="text-3xl font-bold text-black mt-2">Uifry Premium</h2>
@@ -59,6 +62,7 @@ const Features = () => {
             </ul>
           </div>
         </div>
+        <img src={color1} alt='' className='w-50 absolute -top-110 -right-15'/>
       </div>
     </div >
   )

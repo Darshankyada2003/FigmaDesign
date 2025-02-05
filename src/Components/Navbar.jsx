@@ -5,16 +5,16 @@ const Navbar = () => {
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
             <div className=''>
-                <div className='absolute -left-3'>
-                    <img src={logo} alt='' className='max-w-8 absolute top-10 left-30' />
-                    <p className='text-2xl font-bold absolute top-10 left-38'>uifry</p>
-                    <p className='text-[6px] font-bold absolute top-10 left-50'>TM</p>
-                </div>
+                <a href="#" className="">
+                    <img src={logo} alt="Logo" className="max-w-9 absolute top-10 left-27" />
+                    <span className="text-2xl font-bold absolute top-11 left-36">uifry</span>
+                    <span className="text-sm font-bold text-[7px] absolute top-12 left-48">TM</span>
+                </a>
                 <ul className='flex gap-7 absolute top-12 left-60 font-medium sm:w-auto md:w-auto lg:w-auto xl:w-auto md:mx-auto'>
                     <a href='' className='text-[#FF5555]'>Home</a>
-                    <a href='#About Us' className=''>About Us</a>
-                    <a href='#Pricing' className=''>Pricing</a>
-                    <a href='#Features' className=''>Features</a>
+                    <a href='#About Us' className='hover:text-red-500 cursor-pointer transition duration-300'>About Us</a>
+                    <a href='#Pricing' className='hover:text-red-500 cursor-pointer transition duration-300'>Pricing</a>
+                    <a href='#Features' className='hover:text-red-500 cursor-pointer transition duration-300'>Features</a>
                 </ul>
 
                 <a href='https://play.google.com/store/apps/details?id=com.dreamplug.androidapp&hl=en_IN&pli=1'

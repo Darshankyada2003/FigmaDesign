@@ -7,6 +7,7 @@ import color123 from '../assets/color123.svg'
 import appleicon from '../assets/appleicon.svg'
 import star1black from '../assets/star1black.svg'
 import star2black from '../assets/star2black.svg'
+import star2 from '../assets/star2.svg'
 
 const FAQ = () => {
   return (
@@ -14,7 +15,9 @@ const FAQ = () => {
       <div>
         <p className='text-red-400 text-sm font-semibold tracking-wider'>FAQ</p>
         <h3 className='font-bold text-4xl'>Frequently Asked
-          <span className='block'>Question</span></h3>
+          <span className='block'>Question</span>
+        </h3>
+        <img src={star2} alt='' className='absolute top-20 left-145 w-11' />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
 
@@ -68,6 +71,7 @@ const FAQ = () => {
       <div>
         <img src={red_color} alt='' className='w-80 -ml-40' />
       </div>
+      <img src={star2} alt='' className='absolute top-150 -right-20 w-11' />
       <div className='bg-black px-10 py-50 rounded-sm -mt-37 relative z-10'>
         <div className='relative'>
           <img src={circleleft} alt='' className='absolute w-80 -top-15 -left-10' />

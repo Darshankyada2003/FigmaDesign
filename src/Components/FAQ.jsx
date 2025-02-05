@@ -1,6 +1,9 @@
 import React from 'react'
 import red_color from '../assets/red_color.svg'
-import faq_img from '../assets/FAQ_IMG.svg'
+import circleleft from '../assets/circleleft.svg'
+import circleright from '../assets/circleright.svg'
+import iphone123 from '../assets/iphone123.svg'
+import color123 from '../assets/color123.svg'
 
 const FAQ = () => {
   return (
@@ -61,7 +64,16 @@ const FAQ = () => {
       </div>
       <div>
         <img src={red_color} alt='' className='w-80 -ml-40' />
-        <img src={faq_img} alt='' className='w-300 -mt-40' />
+      </div>
+      <div className='bg-black px-10 py-50 rounded-sm -mt-37 relative z-10'>
+        <div className='relative'>
+          <img src={circleleft} alt='' className='absolute w-80 -top-15 -left-10' />
+          <img src={circleright} alt='' className='absolute w-60 -top-50 left-180' />
+          <img src={iphone123} alt='' className='absolute -top-40 left-150 w-90 z-10' />
+          <div className='relative'>
+            <img src={color123} alt='' className='absolute left-190 -top-20 w-50' />
+          </div>
+        </div>
       </div>
     </div>
   )

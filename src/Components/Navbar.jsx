@@ -17,7 +17,9 @@ const Navbar = () => {
                     <a href='#Features' className=''>Features</a>
                 </ul>
 
-                <button className='bg-black text-white -top-23 -right-240 rounded-sm text-sm px-8 py-2 relative'>Download</button>
+                <a href='https://play.google.com/store/apps/details?id=com.dreamplug.androidapp&hl=en_IN&pli=1'
+                    target='_blank'
+                    className='bg-black text-white -top-23 -right-240 rounded-sm text-sm px-8 py-2 relative cursor-pointer hover:bg-transparent hover:text-black transition border border-black'>Download</a>
             </div>
         </div>
     )

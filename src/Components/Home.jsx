@@ -6,12 +6,17 @@ import i_phone2 from '../assets/i_phone_2.svg'
 import i_phone1 from '../assets/i_phone_1.svg'
 import z_image from '../assets/z_image.svg'
 import redcolor from '../assets/redcolor.svg'
+import star from '../assets/star.svg'
+import star2 from '../assets/star2.svg'
+import color from '../assets/red_color.svg'
 
 const Home = () => {
     return (
         <div className='flex items-center justify-between w-full h-screen p-8 ml-20' id='Home'>
             {/* Right Section */}
             <div>
+                <img src={star} alt='' className='w-7 absolute top-25 left-6' />
+                <img src={color} alt='' className='w-60 absolute top-15 left-40' />
                 <p className="text-black font-extrabold text-4xl -bottom-30 relative">
                     Make The Best<br />
                     Financial Decisions
@@ -32,7 +37,8 @@ const Home = () => {
 
                 <div className='flex justify-start relative -bottom-27 -left-18'>
                     <img src={z_image} alt='' className='w-120 px-10 py-10' />
-                </div >
+                    <img src={star} alt='' className='w-7 absolute top-23 left-44' />
+                 </div >
             </div>
 
             {/* Left section */}
@@ -41,9 +47,11 @@ const Home = () => {
                 <img src={i_phone2} alt="" className=" w-110 h-110 relative -right-160 -bottom-8 z-20" />
                 <img src={i_phone3} alt="" className="w-110 h-110 relative -right-95 -bottom-18 z-10" />
                 <img src={circle} alt="" className="w-100 h-100 relative" />
+                <img src={star2} alt="" className="w-10 absolute -top-5 -right-5" />
             </div>
             <div className='absolute top-95 right-40'>
-                <img src={redcolor} alt="" className="w-60 " />
+                <img src={redcolor} alt="" className="w-60" />
+                <img src={star2} alt="" className="w-7 absolute top-20 left-5" />
             </div>
         </div>
     )

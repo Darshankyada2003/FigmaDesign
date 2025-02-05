@@ -2,11 +2,12 @@ import React from 'react'
 import circle_3 from '../assets/circle_3.svg'
 import red_color from '../assets/red_color.svg'
 import nick_jonas from '../assets/nick_jonas.svg'
+import star from '../assets/star.svg'
 
 
 const UserTestimonails = () => {
     return (
-        <div>
+        <div className='mb-10'>
             <div className='flex flex-col text-center justify-center'>
                 <h5 className=''>TESTIMONIAL</h5>
                 <p className='font-bold text-4xl'>What Our Users
@@ -16,6 +17,7 @@ const UserTestimonails = () => {
             <div className='relative'>
                 <img src={circle_3} alt='' className='w-100 ml-30 relative z-10' />
                 <img src={red_color} alt='' className='w-100 absolute ml-20 top-0 left-0' />
+                <img src={star} alt='' className='absolute left-0 w-7 top-90' />
             </div>
 
             {/* Right section */}

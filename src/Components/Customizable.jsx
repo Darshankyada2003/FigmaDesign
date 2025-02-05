@@ -3,24 +3,28 @@ import orange_color from '../assets/orange_color.svg'
 import circle_2 from '../assets/circle_2.svg'
 import iphon_features from '../assets/iphon_features.svg'
 import icon_6 from '../assets/icon_6.svg'
+import star from '../assets/star.svg'
+import star2 from '../assets/star2.svg'
+import CreditCard from '../assets/CreditCard.svg'
 
 const Customizable = () => {
   return (
     <div className='' id=''>
-
       {/* Right section */}
       <div className='relative -top-20'>
+      <img src={star} alt='' className='absolute left-140 w-7 top-0' />
         <div>
           <img src={orange_color} alt='' className='px-10 py-10 w-150' />
         </div>
         <div className='-mt-120 px-25'>
           <img src={circle_2} alt='' className='w-1/2 max-w-sm relative' />
           <img src={iphon_features} alt='' className='relative w-70 -mt-100 z-10 -right-25' />
+          <img src={CreditCard} alt='' className='absolute top-40 left-62 w-40 z-10' />
         </div>
       </div>
 
       {/* Left section */}
-      <div className="relative">
+      <div className="relative top-10 -left-20">
         <div className="flex justify-end px-10 absolute -top-120 -right-0">
           <div className="max-w-lg">
             <ul className="mt-4 space-y-4">
@@ -39,9 +43,9 @@ const Customizable = () => {
               </li>
             </ul>
           </div>
+          <img src={star2} alt='' className='absolute top-70 left-110 w-10' />
         </div>
       </div>
-
     </div >
 
   )

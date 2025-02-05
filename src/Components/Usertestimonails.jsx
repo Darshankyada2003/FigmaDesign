@@ -7,7 +7,7 @@ import star from '../assets/star.svg'
 
 const UserTestimonails = () => {
     return (
-        <div className='mb-10'>
+        <div className='-mt-10'>
             <div className='flex flex-col text-center justify-center'>
                 <h5 className=''>TESTIMONIAL</h5>
                 <p className='font-bold text-4xl'>What Our Users

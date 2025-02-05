@@ -17,28 +17,33 @@ const Home = () => {
             <div>
                 <img src={star} alt='' className='w-7 absolute top-25 left-6' />
                 <img src={color} alt='' className='w-60 absolute top-15 left-40' />
-                <p className="text-black font-extrabold text-4xl -bottom-30 relative">
-                    Make The Best<br />
-                    Financial Decisions
-                </p>
-                <p className="text-black text-sm -bottom-35 relative">
-                    Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus
-                    Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
-                </p>
-                <div className="flex items-center gap-4 -bottom-40 relative ">
-                    <button className="bg-black text-white px-6 py-2 rounded-sm">
-                        Get Started →
-                    </button>
-                    <div className="flex items-center gap-2 ">
-                        <img src={watch_video} alt="Watch Video" className="w-7 h-7" />
-                        <p className="text-sm font-semibold">Watch Video</p>
+
+                <div className='absolute top-30'>
+                    <p className="text-black font-extrabold text-4xl">
+                        Make The Best<br />
+                        Financial Decisions
+                    </p>
+                    <p className="text-gray-600 text-sm mt-5">
+                        Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet <br />Faucibus
+                        Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
+                    </p>
+                </div>
+                <div className=''>
+                    <div className="absolute top-70 flex items-center gap-6">
+                        <button className="bg-black text-white px-6 py-2 rounded-sm cursor-pointer 
+                    hover:bg-transparent hover:text-black transition border border-black">
+                            Get Started →
+                        </button>
+                        <div className="flex items-center gap-2 cursor-pointer">
+                            <img src={watch_video} alt="Watch Video" className="w-7 h-7 object-contain" />
+                            <p className="text-sm font-semibold">Watch Video</p>
+                        </div>
                     </div>
                 </div>
-
-                <div className='flex justify-start relative -bottom-27 -left-18'>
+                <div className='absolute top-70 left-10'>
                     <img src={z_image} alt='' className='w-120 px-10 py-10' />
                     <img src={star} alt='' className='w-7 absolute top-23 left-44' />
-                 </div >
+                </div >
             </div>
 
             {/* Left section */}

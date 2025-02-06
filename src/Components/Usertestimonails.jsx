@@ -15,7 +15,8 @@ const UserTestimonails = () => {
             </div>
             {/* left section */}
             <div className='relative'>
-                <img src={circle_3} alt='' className='w-100 ml-30 relative z-10' />
+                <img src={circle_3} alt='' className='w-100 ml-30 relative z-10 
+                transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110' />
                 <img src={red_color} alt='' className='w-100 absolute ml-20 top-0 left-0' />
                 <img src={star} alt='' className='absolute left-0 w-7 top-90' />
             </div>

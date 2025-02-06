@@ -21,30 +21,16 @@ const FAQ = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
 
-        <div className="bg-red-400 text-white p-4 rounded-xl shadow-sm px-5 py-5">
+        <div className="bg-red-400 text-white p-4 rounded-xl shadow-sm px-5 py-5
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           <h2 className="text-xl font-bold mb-2">The Best Financial Accounting App Ever!</h2>
           <p className="text-sm">
             "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
             Ultrices Malesuada Elit Mauris."
           </p>
         </div>
-        <div className="bg-white text-black p-4">
-          <h2 className="text-xl font-bold mb-2">The Best Financial Accounting App Ever!</h2>
-          <p className="text-sm">
-            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
-            Ultrices Malesuada Elit Mauris."
-          </p>
-        </div>
-
-        <div className="bg-white text-black p-4">
-          <h2 className="text-xl font-bold mb-2">The Best Financial Accounting App Ever!</h2>
-          <p className="text-sm">
-            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
-            Ultrices Malesuada Elit Mauris."
-          </p>
-        </div>
-
-        <div className="bg-red-400 text-white p-4 rounded-xl shadow-md border">
+        <div className="bg-white text-black p-4
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           <h2 className="text-xl font-bold mb-2">The Best Financial Accounting App Ever!</h2>
           <p className="text-sm">
             "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
@@ -52,7 +38,8 @@ const FAQ = () => {
           </p>
         </div>
 
-        <div className="bg-red-400 text-white p-4 rounded-xl shadow-md">
+        <div className="bg-white text-black p-4
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           <h2 className="text-xl font-bold mb-2">The Best Financial Accounting App Ever!</h2>
           <p className="text-sm">
             "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
@@ -60,7 +47,26 @@ const FAQ = () => {
           </p>
         </div>
 
-        <div className="bg-white text-black p-4">
+        <div className="bg-red-400 text-white p-4 rounded-xl shadow-md border
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+          <h2 className="text-xl font-bold mb-2">The Best Financial Accounting App Ever!</h2>
+          <p className="text-sm">
+            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
+            Ultrices Malesuada Elit Mauris."
+          </p>
+        </div>
+
+        <div className="bg-red-400 text-white p-4 rounded-xl shadow-md
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+          <h2 className="text-xl font-bold mb-2">The Best Financial Accounting App Ever!</h2>
+          <p className="text-sm">
+            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
+            Ultrices Malesuada Elit Mauris."
+          </p>
+        </div>
+
+        <div className="bg-white text-black p-4
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           <h2 className="text-xl font-bold mb-2">The Best Financial Accounting App Ever!</h2>
           <p className="text-sm">
             "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
@@ -88,13 +94,13 @@ const FAQ = () => {
         <h2 className='z-10 absolute -top-72 left-20 text-white font-[1000] text-4xl'>Ready To Get Started?</h2>
         <p className='z-10 absolute -top-58 left-20 text-gray-300 font-[10]'>Risus Habitant Leol Egestas Mauris Diam Eget Morbi Tempus
           <br />Vulputate.</p>
-        <div className="absolute -top-42 left-20 flex items-center gap-2 z-10 bg-white px-6 py-3 rounded-sm cursor-pointer">
+        <div className="absolute -top-42 left-20 flex items-center gap-2 z-10 bg-white px-6 py-3 rounded-sm cursor-pointer
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
           <a
             href="https://play.google.com/store/apps/details?id=com.dreamplug.androidapp&hl=en_IN&pli=1"
             target="_blank"
-            className="text-black text-sm font-medium"
-          >
-            Download App
+            className="">
+            <button className='text-black text-sm font-medium'>Download App</button>
           </a>
           <img src={appleicon} alt="Apple Icon" className="w-5" />
         </div>

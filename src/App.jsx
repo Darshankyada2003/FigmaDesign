@@ -7,7 +7,7 @@ import Customizable from './Components/Customizable'
 import UserTestimonails from './Components/UserTestimonails'
 import FAQ from './Components/FAQ'
 import Footer from './Components/Footer'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 const HomePage = () => {
   return (
@@ -26,11 +26,9 @@ const HomePage = () => {
 const App = () => {
   return (
     <div className='w-full overflow-hidden'>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+      </Routes>
     </div>
   )
 }

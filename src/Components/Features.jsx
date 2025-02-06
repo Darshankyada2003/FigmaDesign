@@ -12,18 +12,19 @@ import star from '../assets/star.svg'
 const Features = () => {
   return (
     <div className='' id='Features'>
-      {/* Right section */}
+      {/* left section */}
       <div className='relative mb-16 top-10'>
         <div className='max-w-sm ml-10'>
           <img src={orange_color} alt='' className='px-10 py-10' />
         </div>
         <div className='-mt-70 px-25'>
           <img src={circle_2} alt='' className='w-1/2 max-w-sm relative' />
-          <img src={iphon_features} alt='' className='relative w-70 -mt-100 z-10 -right-25' />
+          <img src={iphon_features} alt='' className='relative w-70 -mt-100 z-10 -right-25
+          transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110' />
         </div>
         <img src={star} alt='' className='absolute top-20 left-10 w-7'/>
       </div>
-      {/* Left section */}
+      {/* right section */}
       <div className='relative mr-15'>
         <div className="flex justify-end px-10 absolute -top-110 -right-5">
           <div className="max-w-lg">

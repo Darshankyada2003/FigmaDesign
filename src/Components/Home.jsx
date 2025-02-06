@@ -48,9 +48,12 @@ const Home = () => {
 
             {/* Left section */}
             <div className='flex justify-end relative w-1/2 -bottom-10 mr-25'>
-                <img src={i_phone1} alt="" className="w-110 h-110  relative -right-225 -top-2 z-30" />
-                <img src={i_phone2} alt="" className=" w-110 h-110 relative -right-160 -bottom-8 z-20" />
-                <img src={i_phone3} alt="" className="w-110 h-110 relative -right-95 -bottom-18 z-10" />
+                <img src={i_phone1} alt="" className="w-110 h-110  relative -right-225 -top-2 z-30
+                transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" />
+                <img src={i_phone2} alt="" className=" w-110 h-110 relative -right-160 -bottom-8 z-20
+                transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" />
+                <img src={i_phone3} alt="" className="w-110 h-110 relative -right-95 -bottom-18 z-10
+                transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" />
                 <img src={circle} alt="" className="w-100 h-100 relative" />
                 <img src={star2} alt="" className="w-10 absolute -top-5 -right-5" />
             </div>

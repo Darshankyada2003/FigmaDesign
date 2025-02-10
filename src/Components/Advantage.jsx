@@ -16,8 +16,7 @@ const Advantage = () => {
         <img src={orange_color} alt="" className="w-120 relative -right-190 -bottom-10" />
         <div className="absolute -top-20 left-190 ">
           <img src={circle_2} alt="" className=" max-w-sm -bottom-40 relative" />
-          <img src={i_phone_4} alt="" className="relative w-70 -mt-60 z-10 -right-25
-          transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" />
+          <img src={i_phone_4} alt="" className="relative w-70 -mt-60 z-10 -right-25" />
           <img src={advantage_i_phone} alt="" className="w-40 h-40 relative -top-80 -right-45 z-20
           transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" />
         </div>

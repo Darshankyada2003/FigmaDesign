@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import orange_color from '../assets/orange_color.svg'
 import circle_2 from '../assets/circle_2.svg'
 import iphon_features from '../assets/iphon_features.svg'
@@ -10,6 +10,28 @@ import star from '../assets/star.svg'
 
 
 const Features = () => {
+
+  // const sectionRef = useRef(null);
+  // const [isVisible, setIsVisible] = useState(false);
+
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver(
+  //     ([entry]) => {
+  //       setIsVisible(entry.isIntersecting)
+  //        console.log(entry.isIntersecting);
+  //     },
+  //     { threshold: 0.3 }
+  //   );
+  //   if (sectionRef.current) {
+  //     observer.observe(sectionRef.current)
+  //   }
+  //   return () => {
+  //     if (sectionRef.current) {
+  //       observer.unobserve(sectionRef.current)
+  //     }
+  //   }
+  // }, [])
+
   return (
     <div className='' id='Features'>
       {/* left section */}
@@ -22,7 +44,7 @@ const Features = () => {
           <img src={iphon_features} alt='' className='relative w-70 -mt-100 z-10 -right-25
           transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110' />
         </div>
-        <img src={star} alt='' className='absolute top-20 left-10 w-7'/>
+        <img src={star} alt='' className='absolute top-20 left-10 w-7' />
       </div>
       {/* right section */}
       <div className='relative mr-15'>
@@ -63,7 +85,7 @@ const Features = () => {
             </ul>
           </div>
         </div>
-        <img src={color1} alt='' className='w-50 absolute -top-110 -right-15'/>
+        <img src={color1} alt='' className='w-50 absolute -top-110 -right-15' />
       </div>
     </div >
   )

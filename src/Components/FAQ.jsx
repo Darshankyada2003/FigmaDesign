@@ -8,6 +8,7 @@ import appleicon from '../assets/appleicon.svg'
 import star1black from '../assets/star1black.svg'
 import star2black from '../assets/star2black.svg'
 import star2 from '../assets/star2.svg'
+import { motion } from 'framer-motion'
 
 const FAQ = () => {
   return (
@@ -94,16 +95,17 @@ const FAQ = () => {
         <h2 className='z-10 absolute -top-72 left-20 text-white font-[1000] text-4xl'>Ready To Get Started?</h2>
         <p className='z-10 absolute -top-58 left-20 text-gray-300 font-[10]'>Risus Habitant Leol Egestas Mauris Diam Eget Morbi Tempus
           <br />Vulputate.</p>
-        <div className="absolute -top-42 left-20 flex items-center gap-2 z-10 bg-white px-6 py-3 rounded-sm cursor-pointer
-        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+        <motion.div className="absolute -top-42 left-20 flex items-center gap-2 z-10 bg-white px-6 py-3 rounded-sm cursor-pointer"
+          animate={{ scale: [1, 1.1, 1] }}
+          transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}>
           <a
-            href="https://play.google.com/store/apps/details?id=com.dreamplug.androidapp&hl=en_IN&pli=1"
+            href="https://apps.apple.com/in/app/cred-credit-cards-payments/id1428580080"
             target="_blank"
             className="">
             <button className='text-black text-sm font-medium'>Download App</button>
           </a>
           <img src={appleicon} alt="Apple Icon" className="w-5" />
-        </div>
+        </motion.div>
       </div>
     </div>
   )

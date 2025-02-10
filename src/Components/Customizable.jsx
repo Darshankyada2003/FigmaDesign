@@ -6,20 +6,24 @@ import icon_6 from '../assets/icon_6.svg'
 import star from '../assets/star.svg'
 import star2 from '../assets/star2.svg'
 import CreditCard from '../assets/CreditCard.svg'
+import { motion } from "framer-motion";
+
 
 const Customizable = () => {
   return (
     <div className='' id=''>
       {/* Right section */}
       <div className='relative -top-20'>
-      <img src={star} alt='' className='absolute left-140 w-7 top-0' />
+        <img src={star} alt='' className='absolute left-140 w-7 top-0' />
         <div>
           <img src={orange_color} alt='' className='px-10 py-10 w-150' />
         </div>
         <div className='-mt-120 px-25'>
           <img src={circle_2} alt='' className='w-1/2 max-w-sm relative' />
           <img src={iphon_features} alt='' className='relative w-70 -mt-100 z-10 -right-25' />
-          <img src={CreditCard} alt='' className='absolute top-40 left-62 w-40 z-10 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110' />
+          <motion.img src={CreditCard} alt='' className='absolute top-40 left-62 w-40 z-10'
+            animate={{ scale: [1, 1.1, 1] }}
+            transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }} />
         </div>
       </div>
 

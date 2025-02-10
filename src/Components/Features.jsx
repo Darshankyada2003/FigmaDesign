@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import orange_color from '../assets/orange_color.svg'
 import circle_2 from '../assets/circle_2.svg'
 import iphon_features from '../assets/iphon_features.svg'
@@ -7,30 +7,9 @@ import icon2 from '../assets/icon2.svg'
 import icon3 from '../assets/icon3.svg'
 import color1 from '../assets/color1.svg'
 import star from '../assets/star.svg'
-
+import { motion } from "framer-motion"
 
 const Features = () => {
-
-  // const sectionRef = useRef(null);
-  // const [isVisible, setIsVisible] = useState(false);
-
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver(
-  //     ([entry]) => {
-  //       setIsVisible(entry.isIntersecting)
-  //        console.log(entry.isIntersecting);
-  //     },
-  //     { threshold: 0.3 }
-  //   );
-  //   if (sectionRef.current) {
-  //     observer.observe(sectionRef.current)
-  //   }
-  //   return () => {
-  //     if (sectionRef.current) {
-  //       observer.unobserve(sectionRef.current)
-  //     }
-  //   }
-  // }, [])
 
   return (
     <div className='' id='Features'>
@@ -41,8 +20,9 @@ const Features = () => {
         </div>
         <div className='-mt-70 px-25'>
           <img src={circle_2} alt='' className='w-1/2 max-w-sm relative' />
-          <img src={iphon_features} alt='' className='relative w-70 -mt-100 z-10 -right-25
-          transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110' />
+          <motion.img src={iphon_features} alt='' className='relative w-70 -mt-100 z-10 -right-25'
+            animate={{ scale: [1, 1.1, 1] }}
+            transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }} />
         </div>
         <img src={star} alt='' className='absolute top-20 left-10 w-7' />
       </div>

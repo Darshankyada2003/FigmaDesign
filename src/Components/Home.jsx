@@ -9,6 +9,7 @@ import redcolor from '../assets/redcolor.svg'
 import star from '../assets/star.svg'
 import star2 from '../assets/star2.svg'
 import color from '../assets/red_color.svg'
+import { motion } from "framer-motion"
 
 const Home = () => {
     return (
@@ -55,14 +56,15 @@ const Home = () => {
             </div>
 
             {/* Left section */}
-            <div className='flex justify-end relative w-1/2 -bottom-10 mr-25
-            transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105'>
+            <motion.div className='flex justify-end relative w-1/2 -bottom-10 mr-25'
+                animate={{ scale: [1, 1.1, 1] }}
+                transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }} >
                 <img src={i_phone1} alt="" className="w-110 h-110  relative -right-225 -top-2 z-30" />
                 <img src={i_phone2} alt="" className=" w-110 h-110 relative -right-160 -bottom-8 z-20" />
                 <img src={i_phone3} alt="" className="w-110 h-110 relative -right-95 -bottom-18 z-10" />
                 <img src={circle} alt="" className="w-100 h-100 relative" />
                 <img src={redcolor} alt="" className="w-60 absolute top-70 left-60" />
-            </div>
+            </motion.div>
             <img src={star2} alt="" className="w-10 absolute top-20 right-10" />
             <img src={star2} alt="" className="w-7 absolute top-110 right-90" />
         </div>

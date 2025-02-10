@@ -5,20 +5,22 @@ import i_phone_4 from '../assets/i_phone_4.svg'
 import icon4 from '../assets/icon4.svg'
 import star2 from '../assets/star2.svg'
 import advantage_i_phone from '../assets/advantage_i_phone.svg'
+import { motion } from "framer-motion"
 
 
 const Advantage = () => {
   return (
     <div className='mb-20' id='Advantages'>
-      <img src={star2} alt='' className='absolute right-0'/>
+      <img src={star2} alt='' className='absolute right-0' />
       {/* Right Section */}
       <div className="relative -top-20 -left-10">
         <img src={orange_color} alt="" className="w-120 relative -right-190 -bottom-10" />
         <div className="absolute -top-20 left-190 ">
           <img src={circle_2} alt="" className=" max-w-sm -bottom-40 relative" />
           <img src={i_phone_4} alt="" className="relative w-70 -mt-60 z-10 -right-25" />
-          <img src={advantage_i_phone} alt="" className="w-40 h-40 relative -top-80 -right-45 z-20
-          transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" />
+          <motion.img src={advantage_i_phone} alt="" className="w-40 h-40 relative -top-80 -right-45 z-20"
+            animate={{ scale: [1, 1.1, 1] }}
+            transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }} />
         </div>
       </div>
 

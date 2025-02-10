@@ -17,7 +17,7 @@ const Navbar = () => {
                     <a href='#Features' className='hover:text-red-500 cursor-pointer transition duration-300'>Features</a>
                 </ul>
 
-                <a href='https://play.google.com/store/apps/details?id=com.dreamplug.androidapp&hl=en_IN&pli=1'
+                <a href='https://apps.apple.com/in/app/cred-credit-cards-payments/id1428580080'
                     target='_blank'
                     className='bg-black absolute top-10 right-30 text-white rounded-sm text-sm px-8 py-2 cursor-pointer hover:bg-transparent hover:text-black transition border border-black'>Download</a>
             </div>

@@ -7,21 +7,26 @@ import call from '../assets/call.svg'
 const Footer = () => {
   return (
     <div className='relative p-8 ml-25 mr-25'>
-      <a href="#" className="">
-        <img src={logo} alt="Logo" className="max-w-9 absolute top-3" />
-        <span className="text-2xl font-bold absolute top-4 left-17">uifry</span>
-        <span className="text-sm font-bold text-[7px] absolute top-5 left-30">TM</span>
+      <a href="#" className="flex items-center gap-1 sm:relative sm:top-3 sm:-left-0 relative -left-27 -top-10">
+        {/* Logo */}
+        <img src={logo} alt="Logo" className="w-9 sm:w-auto" />
+
+        {/* Branding */}
+        <div className="flex items-baseline">
+          <span className="text-2xl font-bold">uifry</span>
+          <span className="text-[7px] font-bold ml-1">TM</span>
+        </div>
       </a>
-      <div>
+      <div className='sm:left-0 sm:top-0 relative -top-14 -left-27'>
         <img src={mail} alt='' className='mt-7 max-w-5 ml-1' />
         <p className='ml-8 -mt-5 text-sm hover:text-red-500 cursor-pointer transition duration-300'>Help@Frybix.com</p>
       </div>
-      <div>
+      <div className='sm:left-0 sm:top-0 relative -top-14 -left-27'>
         <img src={call} alt='' className='mt-3 max-w-5 ml-1' />
         <p className='ml-8 -mt-5 text-sm  hover:text-red-500 cursor-pointer transition duration-300'>+1234 456 678 89</p>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-4 gap-2 ml-50 -mt-24'>
-        <div className='space-y-2'>
+      <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 sm:gap-2 gap-2 sm:ml-50 sm:-mt-24 mt-0'>
+        <div className='space-y-2 sm:left-0 relative -left-15 '>
           <p className='font-bold tracking-wide text-xl'>Links</p>
           <p>
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300' >Home</a>
@@ -36,7 +41,7 @@ const Footer = () => {
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Blog</a>
           </p>
         </div>
-        <div className='space-y-2'>
+        <div className='space-y-2 sm:left-0 relative left-15'>
           <p className='font-bold tracking-wide text-xl'>Legal</p>
           <p>
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Terms Of Use</a>
@@ -48,7 +53,7 @@ const Footer = () => {
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Cookie Policy</a>
           </p>
         </div>
-        <div className='space-y-2'>
+        <div className='space-y-2 sm:left-0 relative -left-15'>
           <p className='font-bold tracking-wide text-xl'>Product</p>
           <p>
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Take Tour</a>
@@ -60,7 +65,7 @@ const Footer = () => {
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Reveiws</a>
           </p>
         </div>
-        <div className='space-y-2'>
+        <div className='space-y-2 sm:left-0 relative left-15'>
           <p className='font-bold tracking-wide text-xl'>Newsletter</p>
           <p>
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Stay Up To Date</a>
@@ -84,7 +89,7 @@ const Footer = () => {
       </div>
       <div className='text-center py-6 mt-10'>
         <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-black to-transparent"></div>
-        <p className='mt-8 text-sm text-black font-medium'>
+        <p className='mt-8 text-sm text-black font-medium whitespace-nowrap text-center sm:right-0 right-20 relative'>
           Copyright 2022 Uifry.Com All Rights Reserved
         </p>
       </div>

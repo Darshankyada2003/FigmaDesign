@@ -26,7 +26,7 @@ const Footer = () => {
         <p className='ml-8 -mt-5 text-sm  hover:text-red-500 cursor-pointer transition duration-300 whitespace-nowrap'>+1234 456 678 89</p>
       </div>
       <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 sm:gap-2 gap-2 sm:ml-50 sm:-mt-24 mt-0 sm:left-0 -left-3 relative'>
-        <div className='space-y-2 sm:left-0 relative -left-15 '>
+        <div className='space-y-2 sm:left-0 relative -left-15 whitespace-nowrap '>
           <p className='font-bold tracking-wide text-xl'>Links</p>
           <p>
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300' >Home</a>
@@ -41,7 +41,7 @@ const Footer = () => {
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Blog</a>
           </p>
         </div>
-        <div className='space-y-2 sm:left-0 relative left-15'>
+        <div className='space-y-2 sm:left-0 relative left-10 whitespace-nowrap'>
           <p className='font-bold tracking-wide text-xl'>Legal</p>
           <p>
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Terms Of Use</a>
@@ -53,7 +53,7 @@ const Footer = () => {
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Cookie Policy</a>
           </p>
         </div>
-        <div className='space-y-2 sm:left-0 relative -left-15'>
+        <div className='space-y-2 sm:left-0 relative -left-15 whitespace-nowrap'>
           <p className='font-bold tracking-wide text-xl'>Product</p>
           <p>
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Take Tour</a>
@@ -65,7 +65,7 @@ const Footer = () => {
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Reveiws</a>
           </p>
         </div>
-        <div className='space-y-2 sm:left-0 relative left-15'>
+        <div className='space-y-2 sm:left-0 relative left-10 whitespace-nowrap'>
           <p className='font-bold tracking-wide text-xl'>Newsletter</p>
           <p>
             <a href='#' className='hover:text-red-500 cursor-pointer transition duration-300'>Stay Up To Date</a>

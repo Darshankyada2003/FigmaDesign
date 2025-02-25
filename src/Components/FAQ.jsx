@@ -102,12 +102,12 @@ const FAQ = () => {
          text-black sm:text-white sm:font-[1000] sm:text-4xl text-2xl font-bold'>
           Ready To Get Started?
         </h2>
-        <p className='z-10 absolute sm:-top-58 sm:left-20 -left-18 sm:text-gray-300 text-black sm:font-[10]
+        <p className='sm:z-10 absolute sm:-top-58 sm:left-20 -left-17 sm:text-gray-300 text-black sm:font-[10] w-[250%] sm:w-auto
         text-[15px] -top-50'>
           Risus Habitant Leol Egestas Mauris Diam Eget Morbi Tempus <span className='sm:block inline'>Vulputate.</span>
         </p>
         <motion.div className="absolute sm:-top-42 sm:left-20 flex items-center gap-2 z-10
-        py-3 px-8 -top-20 -left-7 whitespace-nowrap
+        py-3 px-8 -top-30 -left-7 whitespace-nowrap
          bg-white sm:px-6 sm:py-3 rounded-sm cursor-pointer border border-black"
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}>

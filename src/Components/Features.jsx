@@ -12,7 +12,7 @@ import { motion } from "framer-motion"
 const Features = () => {
 
   return (
-    <div className='sm:mb-0 mb-200 sm:top-0 top-10 relative' id='Features'>
+    <div className='sm:mb-0 mb-180 sm:top-0 top-10 relative' id='Features'>
       {/* left section */}
       <div className='relative mb-16 top-10'>
         <div className='max-w-sm ml-10'>
@@ -27,13 +27,13 @@ const Features = () => {
         <img src={star} alt='' className='absolute top-20 left-10 w-7 sm:block hidden' />
       </div>
       {/* right section */}
-      <div className='relative mr-15'>
+      <div className='relative sm:mr-15'>
         <div className="flex justify-end px-10 absolute -top-110 -right-5">
           <div className="max-w-lg">
             <h5 className="text-red-500 text-sm font-semibold tracking-wider">FEATURES</h5>
             <h2 className="text-3xl font-bold text-black mt-2">Uifry Premium</h2>
 
-            <ul className="mt-4 space-y-4">
+            <ul className="mt-4 space-y-4 ">
               <li>
                 <h6 className="text-lg font-semibold flex items-start">
                   <img src={icon1} className='w-4 h-4 mr-2 mt-1' />

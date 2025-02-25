@@ -33,7 +33,7 @@ const Customizable = () => {
           <div className="max-w-lg">
             <ul className="mt-4 space-y-4">
               <li>
-                <h6 className="text-3xl font-bold flex items-start sm:top-0 top-25 relative  whitespace-nowrap">
+                <h6 className="text-3xl font-bold flex items-start sm:top-0 top-25 relative sm:left-0 -left-3 whitespace-nowrap">
                   <img src={icon_6} className="w-8 h-8 mr-2 mt-1" alt="" />
                   Fully Customizable
                 </h6>

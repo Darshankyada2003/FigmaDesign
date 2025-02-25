@@ -12,19 +12,19 @@ import { motion } from "framer-motion"
 const Features = () => {
 
   return (
-    <div className='sm:mb-0 mb-200' id='Features'>
+    <div className='sm:mb-0 mb-200 sm:top-0 top-10 relative' id='Features'>
       {/* left section */}
       <div className='relative mb-16 top-10'>
         <div className='max-w-sm ml-10'>
-          <img src={orange_color} alt='' className='px-10 py-10' />
+          <img src={orange_color} alt='' className='px-10 py-10 sm:block hidden' />
         </div>
-        <div className='-mt-70 px-25'>
+        <div className='-mt-70 px-25 hidden sm:block'>
           <img src={circle_2} alt='' className='w-1/2 max-w-sm relative' />
           <motion.img src={iphon_features} alt='' className='relative w-70 -mt-100 z-10 -right-25'
             animate={{ scale: [1, 1.1, 1] }}
             transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }} />
         </div>
-        <img src={star} alt='' className='absolute top-20 left-10 w-7' />
+        <img src={star} alt='' className='absolute top-20 left-10 w-7 sm:block hidden' />
       </div>
       {/* right section */}
       <div className='relative mr-15'>

@@ -19,7 +19,7 @@ const FAQ = () => {
         </h3>
         <img src={star2} alt='' className='absolute top-20 left-145 w-11 hidden sm:flex' />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 sm:gap-6 gap-6 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 sm:gap-6 gap-6 mt-6 sm:left-0 -left-2 relative">
 
         <div className="bg-red-400 text-white sm:px-5 sm:py-4 px-5 py-5 rounded-xl shadow-md
         max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:left-0 -left-25 relative

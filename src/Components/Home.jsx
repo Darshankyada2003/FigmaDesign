@@ -16,8 +16,8 @@ const Home = () => {
         <div className='flex items-center justify-between w-full h-screen p-8 ml-20' id='Home'>
             {/* Right Section */}
             <div className=''>
-                <img src={star} alt='' className='w-7 absolute top-25 left-6' />
-                <img src={color} alt='' className='w-60 absolute top-15 left-40' />
+                <img src={star} alt='' className='w-7 absolute top-25 left-6 hidden sm:block' />
+                <img src={color} alt='' className='w-60 absolute top-15 left-40 hidden sm:block' />
 
                 <div className='absolute top-30 left-7 sm:left-27'>
                     <p className="text-black font-extrabold text-4xl">
@@ -50,7 +50,7 @@ const Home = () => {
                 </div>
 
                 <img src={z_image} alt='' className='w-100 absolute top-80 left-20 hidden sm:block' />
-                <img src={star} alt='' className='w-7 absolute top-95 left-44' />
+                <img src={star} alt='' className='w-7 absolute top-95 left-44 hidden sm:block' />
             </div>
 
             {/* Left section */}

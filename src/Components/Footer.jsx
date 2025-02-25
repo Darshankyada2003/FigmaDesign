@@ -25,7 +25,7 @@ const Footer = () => {
         <img src={call} alt='' className='mt-3 max-w-5 ml-1' />
         <p className='ml-8 -mt-5 text-sm  hover:text-red-500 cursor-pointer transition duration-300 whitespace-nowrap'>+1234 456 678 89</p>
       </div>
-      <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 sm:gap-2 gap-2 sm:ml-50 sm:-mt-24 mt-0'>
+      <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 sm:gap-2 gap-2 sm:ml-50 sm:-mt-24 mt-0 sm:left-0 -left-3 relative'>
         <div className='space-y-2 sm:left-0 relative -left-15 '>
           <p className='font-bold tracking-wide text-xl'>Links</p>
           <p>

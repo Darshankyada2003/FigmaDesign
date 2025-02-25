@@ -10,10 +10,10 @@ import { motion } from "framer-motion"
 
 const Advantage = () => {
   return (
-    <div className='mb-20' id='Advantages'>
+    <div className='mb-20 sm:left-0 -left-3 relative' id='Advantages'>
       <img src={star2} alt='' className='absolute right-0 hidden sm:flex' />
       {/* Right Section */}
-      <div className="relative sm:-top-20 sm:-left-10 -left-150 -top-130 sm:scale-100 scale-75 ">
+      <div className="relative sm:-top-20 sm:-left-10 -left-145 -top-130 sm:scale-100 scale-75 ">
         <img src={orange_color} alt="" className="w-120 relative -right-190 -bottom-10" />
         <div className="absolute -top-20 left-190 ">
           <img src={circle_2} alt="" className=" max-w-sm -bottom-40 relative" />
@@ -28,8 +28,12 @@ const Advantage = () => {
       <div className='relative top-20'>
         <div className="flex justify-start sm:px-30 absolute left-10 -top-100">
           <div className="max-w-lg">
-            <h5 className="text-red-500 text-sm font-semibold tracking-wider sm:top-0 relative -top-120">ADVANTAGES</h5>
-            <h2 className="text-3xl font-bold text-black mt-2 sm:top-0 relative -top-120">Why Chooes Uifry?</h2>
+            <h5 className="text-red-500 text-sm font-semibold tracking-wider sm:top-0 relative -top-120">
+              ADVANTAGES
+            </h5>
+            <h2 className="text-3xl font-bold text-black mt-2 sm:top-0 relative -top-120">
+              Why Chooes Uifry?
+            </h2>
 
             <ul className="sm:mt-4 sm:space-y-4">
               <li>

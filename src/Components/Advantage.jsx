@@ -11,9 +11,9 @@ import { motion } from "framer-motion"
 const Advantage = () => {
   return (
     <div className='mb-20' id='Advantages'>
-      <img src={star2} alt='' className='absolute right-0' />
+      <img src={star2} alt='' className='absolute right-0 hidden sm:flex' />
       {/* Right Section */}
-      <div className="relative -top-20 -left-10">
+      <div className="relative sm:-top-20 sm:-left-10 -left-150 -top-130 sm:scale-100 scale-75 ">
         <img src={orange_color} alt="" className="w-120 relative -right-190 -bottom-10" />
         <div className="absolute -top-20 left-190 ">
           <img src={circle_2} alt="" className=" max-w-sm -bottom-40 relative" />
@@ -26,23 +26,23 @@ const Advantage = () => {
 
       {/* left section */}
       <div className='relative top-20'>
-        <div className="flex justify-start px-30 absolute left-10 -top-100">
+        <div className="flex justify-start sm:px-30 absolute left-10 -top-100">
           <div className="max-w-lg">
-            <h5 className="text-red-500 text-sm font-semibold tracking-wider">ADVANTAGES</h5>
-            <h2 className="text-3xl font-bold text-black mt-2">Why Chooes Uifry?</h2>
+            <h5 className="text-red-500 text-sm font-semibold tracking-wider sm:top-0 relative -top-120">ADVANTAGES</h5>
+            <h2 className="text-3xl font-bold text-black mt-2 sm:top-0 relative -top-120">Why Chooes Uifry?</h2>
 
-            <ul className="mt-4 space-y-4">
+            <ul className="sm:mt-4 sm:space-y-4">
               <li>
-                <h6 className="text-lg font-semibold flex items-start">
+                <h6 className="text-lg font-semibold flex items-star sm:top-0 relative -top-35">
                   <img src={icon4} className='w-8 h-8 mr-2' />
                   Clever Notifications
                 </h6>
-                <p className="text-gray-600 -bottom-3 relative">
-                  Arcu At Dictum Sapien, Mollis. Vulputate
-                  Sit Id Accumsan, Ultricies. In Ultrices Malesuacia
-                  Elit Mauris Etiam Odio. Duis Tristique Lacus, Et Blandit
-                  Viverra Nisl Velit. Sed Mattis Rhoncus, Diam Suspendisse Sit Nunc,
-                  Gravida Eu. Lectus Eget Eget Ac Dolor Neque Lorem Sapien, Suspendisse Aliquam.
+                <p className="text-gray-600 sm:-bottom-3 relative sm:top-0 -top-30">
+                  Arou At Dictum Sapien, Mollis. Vulputate Sit id Accumsan, Ultricies.
+                  In Ultrices Malesuada Elit Mauris Etiam Odio. Dute Tristique Lacus,
+                  Et Blandit Viverro Nial Vollt. Sed Mattis Rhoncus, Diam Suspendisse
+                  Sit Nung, Gravicia Eu. Lectus Eget Eget Ac Dolor Neque Lorem Sapien,
+                  Suspendisse Aliquam.
                 </p>
               </li>
             </ul>

@@ -12,7 +12,7 @@ import { motion } from "framer-motion"
 const Features = () => {
 
   return (
-    <div className='' id='Features'>
+    <div className='sm:mb-0 mb-200' id='Features'>
       {/* left section */}
       <div className='relative mb-16 top-10'>
         <div className='max-w-sm ml-10'>

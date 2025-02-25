@@ -13,27 +13,57 @@ import { motion } from 'framer-motion'
 const FAQ = () => {
   return (
     <div className='relative p-8 ml-25 mr-25'>
-      <div className='sm:mt-0 mt-15 sm:-ml-0 -ml-23'>
-        <p className='text-red-400 text-sm font-semibold tracking-wider'>FAQ</p>
-        <h3 className='font-bold text-2xl sm:text-4xl'>Frequently Asked <span className='inline sm:block'>Question</span>
+      <div className='sm:mt-0 mt-15 sm:-mr-0 -mr-12'>
+        <p className='text-red-400 text-sm font-semibold tracking-wider sm:left-0 left-7 relative'>FAQ</p>
+        <h3 className='font-bold text-xl sm:text-4xl whitespace-nowrap sm:left-0 -left-18 relative'>Frequently Asked <span className='inline sm:block'>Question</span>
         </h3>
-        <img src={star2} alt='' className='absolute top-20 left-145 w-11' />
+        <img src={star2} alt='' className='absolute top-20 left-145 w-11 hidden sm:flex' />
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-2 sm:gap-6 gap-6 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 sm:gap-6 gap-6 mt-6">
+
+        <div className="bg-red-400 text-white sm:px-5 sm:py-4 px-5 py-5 rounded-xl shadow-md
+        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:left-0 -left-25 relative
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+          <h2 className="sm:text-xl text-[15px] font-bold mb-2 whitespace-nowrap">The Best Financial Accounting App Ever!</h2>
+          <p className="sm:text-sm text-[10px]">
+            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
+            Ultrices Malesuada Elit Mauris."
+          </p>
+        </div>
+        <div className="bg-white text-black p-4 rounded-xl shadow-md
+        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:px-5 sm:py-4 px-5 py-5 sm:left-0 -left-25 relative
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+          <h2 className="sm:text-xl text-[15px] font-bold mb-2 whitespace-nowrap">The Best Financial Accounting App Ever!</h2>
+          <p className="sm:text-sm text-[10px]">
+            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
+            Ultrices Malesuada Elit Mauris."
+          </p>
+        </div>
+
+        <div className="sm:bg-white bg-red-400 sm:text-black text-white p-4 rounded-xl shadow-md
+        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:px-5 sm:py-4 px-5 py-5 sm:left-0 -left-25 relative
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+          <h2 className="sm:text-xl text-[15px] font-bold mb-2 whitespace-nowrap">The Best Financial Accounting App Ever!</h2>
+          <p className="sm:text-sm text-[10px]">
+            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
+            Ultrices Malesuada Elit Mauris."
+          </p>
+        </div>
+
+        <div className="sm:bg-red-400 sm:text-white p-4 rounded-xl shadow-md  
+        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:px-5 sm:py-4 px-5 py-5 sm:left-0 -left-25 relative
+        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+          <h2 className="sm:text-xl text-[15px] font-bold mb-2 whitespace-nowrap">The Best Financial Accounting App Ever!</h2>
+          <p className="sm:text-sm text-[10px]">
+            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
+            Ultrices Malesuada Elit Mauris."
+          </p>
+        </div>
 
         <div className="bg-red-400 text-white p-4 rounded-xl shadow-md
-        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:left-0 -left-15 relative
+        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:px-5 sm:py-4 px-5 py-5 sm:left-0 -left-25 relative
         transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <h2 className="sm:text-xl text-[15px] font-bold mb-2">The Best Financial Accounting App Ever!</h2>
-          <p className="sm:text-sm text-[10px]">
-            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
-            Ultrices Malesuada Elit Mauris."
-          </p>
-        </div>
-        <div className="bg-white text-black p-4 rounded-xl shadow-md
-        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto
-        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <h2 className="sm:text-xl text-[15px] font-bold mb-2">The Best Financial Accounting App Ever!</h2>
+          <h2 className="sm:text-xl text-[15px] font-bold mb-2 whitespace-nowrap">The Best Financial Accounting App Ever!</h2>
           <p className="sm:text-sm text-[10px]">
             "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
             Ultrices Malesuada Elit Mauris."
@@ -41,39 +71,9 @@ const FAQ = () => {
         </div>
 
         <div className="bg-white text-black p-4 rounded-xl shadow-md
-        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:left-0 -left-15 relative
+        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:px-5 sm:py-4 px-5 py-5 sm:left-0 -left-25 relative
         transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <h2 className="sm:text-xl text-[15px] font-bold mb-2">The Best Financial Accounting App Ever!</h2>
-          <p className="sm:text-sm text-[10px]">
-            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
-            Ultrices Malesuada Elit Mauris."
-          </p>
-        </div>
-
-        <div className="bg-red-400 text-white p-4 rounded-xl shadow-md  
-        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto
-        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <h2 className="sm:text-xl text-[15px] font-bold mb-2">The Best Financial Accounting App Ever!</h2>
-          <p className="sm:text-sm text-[10px]">
-            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
-            Ultrices Malesuada Elit Mauris."
-          </p>
-        </div>
-
-        <div className="bg-red-400 text-white p-4 rounded-xl shadow-md
-        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto sm:left-0 -left-15 relative
-        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <h2 className="sm:text-xl text-[15px] font-bold mb-2">The Best Financial Accounting App Ever!</h2>
-          <p className="sm:text-sm text-[10px]">
-            "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
-            Ultrices Malesuada Elit Mauris."
-          </p>
-        </div>
-
-        <div className="bg-white text-black p-4 rounded-xl shadow-md
-        max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto
-        transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <h2 className="sm:text-xl text-[15px] font-bold mb-2">The Best Financial Accounting App Ever!</h2>
+          <h2 className="sm:text-xl text-[15px] font-bold mb-2 whitespace-nowrap">The Best Financial Accounting App Ever!</h2>
           <p className="sm:text-sm text-[10px]">
             "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In
             Ultrices Malesuada Elit Mauris."
@@ -98,16 +98,16 @@ const FAQ = () => {
       </div>
       <div className='relative text-black sm:text-white'>
         <h2 className='z-10 absolute sm:-top-72 sm:left-20
-          bottom-55 -left-23
+          bottom-55 -left-18 whitespace-nowrap
          text-black sm:text-white sm:font-[1000] sm:text-4xl text-2xl font-bold'>
           Ready To Get Started?
         </h2>
-        <p className='z-10 absolute sm:-top-58 sm:left-20 -left-23 sm:text-gray-300 text-black sm:font-[10]
+        <p className='z-10 absolute sm:-top-58 sm:left-20 -left-18 sm:text-gray-300 text-black sm:font-[10]
         text-[15px] -top-50'>
-          Risus Habitant Leol Egestas Mauris Diam Eget Morbi Tempus<span className='block'>Vulputate.</span>
+          Risus Habitant Leol Egestas Mauris Diam Eget Morbi Tempus <span className='sm:block inline'>Vulputate.</span>
         </p>
         <motion.div className="absolute sm:-top-42 sm:left-20 flex items-center gap-2 z-10
-        py-3 px-8 -top-20 -left-23
+        py-3 px-8 -top-20 -left-7 whitespace-nowrap
          bg-white sm:px-6 sm:py-3 rounded-sm cursor-pointer border border-black"
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}>

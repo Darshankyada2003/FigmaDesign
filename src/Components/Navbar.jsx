@@ -49,7 +49,7 @@ const Navbar = () => {
                     <img onClick={() => setMobileMenu(false)} src={cross_icon} className='w-5 relative left-45' alt='' />
                 </a>
                 <ul className='flex flex-col items-start gap-2 mt-2 px-5 text-lg font-medium'>
-                    <a onClick={() => setMobileMenu(false)} href='#Header' className='px-4 py-3 rounded-full inline-block'>Home</a>
+                    <a onClick={() => setMobileMenu(false)} href='#Header' className='px-4 py-3 rounded-full inline-block text-[#FF5555] '>Home</a>
                     <a onClick={() => setMobileMenu(false)} href='#About Us' className='px-4 py-3 rounded-full inline-block'>About Us</a>
                     <a onClick={() => setMobileMenu(false)} href='#Pricing' className='px-4 py-3 rounded-full inline-block'>Pricing</a>
                     <a onClick={() => setMobileMenu(false)} href='#Features' className='px-4 py-3 rounded-full inline-block'>Features</a>

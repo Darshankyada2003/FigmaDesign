@@ -5,7 +5,7 @@ import nick_jonas from '../assets/nick_jonas.svg'
 import star from '../assets/star.svg'
 
 
-const UserTestimonails = () => {
+const UserTestimonials = () => {
     return (
         <div className='-mt-10'>
             <div className='flex flex-col text-center justify-center'>
@@ -48,4 +48,4 @@ const UserTestimonails = () => {
     )
 }
 
-export default UserTestimonails
+export default UserTestimonials

@@ -4,7 +4,7 @@ import Home from './Components/Home'
 import Features from './Components/Features'
 import Advantage from './Components/Advantage'
 import Customizable from './Components/Customizable'
-import UserTestimonails from './Components/UserTestimonails'
+import UserTestimonials from './Components/UserTestimonials'
 import FAQ from './Components/FAQ'
 import Footer from './Components/Footer'
 import { Route, Routes } from 'react-router-dom'
@@ -17,7 +17,7 @@ const HomePage = () => {
       <Features />
       <Advantage />
       <Customizable />
-      <UserTestimonails />
+      <UserTestimonials />
       <FAQ />
       <Footer />
     </>

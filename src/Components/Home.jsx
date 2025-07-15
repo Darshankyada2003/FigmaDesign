@@ -1,5 +1,5 @@
 import React from 'react'
-import watch_video from '../assets/watch_video.svg'
+import watch_video from '../assets/Watch_video.svg'
 import circle from '../assets/circle.svg'
 import i_phone3 from '../assets/i_phone_3.svg'
 import i_phone2 from '../assets/i_phone_2.svg'

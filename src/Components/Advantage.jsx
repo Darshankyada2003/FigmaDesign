@@ -26,7 +26,7 @@ const Advantage = () => {
 
       {/* left section */}
       <div className='relative top-20'>
-        <div className="flex justify-start sm:px-30 absolute left-10 -top-100">
+        <div className="flex justify-start sm:px-30 absolute left-10  -top-100">
           <div className="max-w-lg">
             <h5 className="text-red-500 text-sm font-semibold tracking-wider sm:top-0 relative -top-120">
               ADVANTAGES
